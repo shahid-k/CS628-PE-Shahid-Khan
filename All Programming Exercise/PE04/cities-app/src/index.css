@@ -1,0 +1,77 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3A3B3C;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav {
+  text-align: center;
+  margin: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a.active {
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+}
+
+.left-content {
+  text-align: left;
+}
+
+ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.city-details {
+  background-color: #F5F5F5;
+  padding: 15px;
+  border: 1px solid #F5F5F5;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
