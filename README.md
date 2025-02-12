@@ -41,3 +41,30 @@ The Output stage presents the todo list to the user, dynamically rendered using 
 CSS styling is applied to further improve the user interface, making the todo list visually appealing and user-friendly. The TodoList.css file provides the necessary styles to enhance the layout and overall look of the application.
 
 The todo list application adheres to the Input-Process-Output model effectively. By capturing user input, processing it through event handlers and state management with useState, and presenting the result as a dynamic and visually pleasing todo list, the application offers a seamless and efficient way for users to manage their tasks. The use of separate components and the .map() function enhances code modularity and readability, contributing to a well-organized and maintainable application.
+
+
+
+## PE04 Analysis Report
+![pe04-1](https://github.com/user-attachments/assets/3c0191a5-be90-461f-8c5d-3f63f9fbb9e2)
+![pe04-3](https://github.com/user-attachments/assets/c3afa8db-266d-4264-8b40-7dd67482d139)
+![pe04-2](https://github.com/user-attachments/assets/5c82262b-fe10-406d-927a-864d1c51131b)
+
+### Input
+The Cities Application allows users to input city details through a user-friendly form. The required fields include:
+- **City Name**
+- **Country**
+- **Population**
+
+Users can navigate to the **Add City** page via the navigation menu to provide the above information. Additionally, the application comes preloaded with a list of cities for reference.
+
+### Process
+The application processes the input data using React's state management. When a user submits a new city, the application:
+1. Validates and updates the city information in the internal state.
+2. Uses React Router for seamless navigation between pages.
+3. Displays city details dynamically by extracting the city ID from the URL and matching it to the stored city list.
+
+### Output
+The output includes:
+- A dynamically updated **Cities List** with city name, country, and population displayed in a table.
+- A detailed **City Details** view showing specific information for each city.
+- Real-time updates to the list when a new city is added.
