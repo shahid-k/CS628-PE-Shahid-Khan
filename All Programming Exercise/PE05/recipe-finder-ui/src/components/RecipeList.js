@@ -4,11 +4,14 @@ import axios from 'axios';
 import './RecipeDetails.css';
 function RecipeList() {
   const [recipes, setRecipes] = useState([]);
-  const backUrl = 'https://zany-system-jv44w44696vhjjrg-5050.app.github.dev';
+  const backUrl = 'https://fantastic-cod-rpvq6xpwjjrfp5p6-5050.app.github.dev';
+  // const backUrl = 'http://localhost:5050';
   useEffect(() => {
-    axios.get(backUrl+'/api/recipes')
-      .then(response => setRecipes(response.data))
-      .catch(error => console.error(error));
+      const setData = async () => await axios.get(backUrl+'/api/recipes')
+      setData().then((res)=>{
+        setRecipes(res.data)
+      }).catch(err => console.log(err))
+      // setRecipes(setData.data)
   }, []);
 
   return (

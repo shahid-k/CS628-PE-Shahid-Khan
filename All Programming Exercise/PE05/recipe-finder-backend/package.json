@@ -7,7 +7,7 @@
     "start": "node server.mjs"
   },
   "type": "module",
-  "author": "Yogesh Goel",
+  "author": "Shahid Khan",
   "license": "ISC",
   "description": "server side web app",
   "dependencies": {

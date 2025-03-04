@@ -6,7 +6,9 @@ import './RecipeDetails.css';
 
 function RecipeDetails() {
   const history = useNavigate();
-  const backUrl = 'https://zany-system-jv44w44696vhjjrg-5050.app.github.dev';
+  const backUrl = 'https://fantastic-cod-rpvq6xpwjjrfp5p6-5050.app.github.dev:5050';
+  // const backUrl = 'http://localhost:5050';
+
   const { id } = useParams();
 
   const [recipe, setRecipe] = useState({});
