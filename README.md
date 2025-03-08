@@ -68,3 +68,30 @@ The output includes:
 - A dynamically updated **Cities List** with city name, country, and population displayed in a table.
 - A detailed **City Details** view showing specific information for each city.
 - Real-time updates to the list when a new city is added.
+
+
+## PE05 Recipefinder
+![Screenshot 2025-03-02 111049](https://github.com/user-attachments/assets/f89e6804-5c26-4d2f-9e92-0e93c16c8a23)
+![Screenshot 2025-03-02 121253](https://github.com/user-attachments/assets/8df122d2-b225-48f9-9c3b-8b69ab4b21ce)
+![Screenshot 2025-03-02 122528](https://github.com/user-attachments/assets/ab1bae49-86fc-477f-bb69-119dbd013a8c)
+
+
+### Input
+- User interaction with a web application or interface.
+- Data entered by the user, such as recipe names, ingredients, cooking instructions, and other recipe details.
+- User clicks on links/buttons related to the Recipe List, Add Recipe, Recipe Details, Update, and Delete functionalities.
+- Recipe data stored in a database or data source.
+### Process
+- When the user navigates to the Recipe List route, the web application fetches a list of recipes from the database.
+- Each recipe is displayed as a clickable link or card on the page, showing the recipe's name and possibly a brief description or image.
+- The user can click on a recipe link to access the Recipe Details page.
+- When the user navigates to the Add Recipe route, they are presented with a form to enter recipe details.
+- The user provides information such as the recipe name, ingredients, cooking instructions, and other relevant data.
+- After filling out the form, the user submits the data to the web application.
+- The web application processes the data, validates it, and stores the new recipe in the database.
+### Output
+- A list of clickable links or cards, each representing a recipe with its name and possibly other details.
+- A form where users can input information for a new recipe.
+- A page displaying detailed information about a specific recipe, including its name, ingredients, cooking instructions, and other details.
+- A form for updating the details of a specific recipe.
+
